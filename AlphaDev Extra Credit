@@ -1,0 +1,9 @@
+AlphaDev
+I learned about AlphaDev, an AI system developed by Google DeepMind that uses reinforcement learning to discover faster sorting algorithms.
+In class, we learned that comparison based sorting algorithms can achieve Θ(n log n), such as Merge Sort. 
+However, having the same time complexity does not mean that two algorithms have the same actual runtime. 
+AlphaDev focuses on improving this practical performance.
+Instead of having humans design the algorithm, AlphaDev uses reinforcement learning to search through low level computer instructions.
+It tries different ways to sort correctly while reducing the number of instructions needed. 
+This is different from algorithms we learned in class, we learned humans design the sorting strategy.
+AlphaDev does not break the Θ(n log n) theoretical limit. Its significance is that it shows sorting can still become faster in practice by optimizing the actual operations performed by computers.
